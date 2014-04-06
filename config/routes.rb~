@@ -1,0 +1,6 @@
+# When a Rails server gets a request from a web browser it first goes to the router. 
+
+Blogger::Application.routes.draw do
+	#This line tells Rails that we have a resource named articles.
+	resources :articles
+end
